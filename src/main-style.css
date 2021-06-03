@@ -18,12 +18,19 @@ h3, h4, h5, p, text, li {
     font-family: 'Roboto', sans-serif;
 }
 
-#section1, #section2, #section3, #section4 {
+#section1, #section2, #section3, #section4, #section5, #section6, #section7 {
     margin: 0 auto;
     padding: 0px;
     width: 100%;
     height: 100vh;
-    
+    overflow: visible;
+    position: relative;
+}
+
+div.scroll-button {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 50%;
 }
 
 #main-content {
