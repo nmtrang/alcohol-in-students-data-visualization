@@ -34,7 +34,10 @@
             </ul>
             --->
         </div>
-        <input type="button" value="SCROLL" onClick="document.getElementById('section2').scrollIntoView();" />
+        <div class="scroll-button">
+            <input type="button" value="SCROLL" onClick="document.getElementById('section2').scrollIntoView();" />
+        </div>
+        
     </section>
     <section id="section2">
 
@@ -84,20 +87,60 @@
                 <li>G2 - second period grade (numeric: from 0 to 20)</li>
                 <li>G3 - final grade (numeric: from 0 to 20, output target)</li>
         </p>
-        <input type="button" value="BACK" onClick="document.getElementById('section1').scrollIntoView();" />
-        <input type="button" value="SCROLL" onClick="document.getElementById('section3').scrollIntoView();" />
+        <div class="scroll-button">
+            <input type="button" value="BACK" onClick="document.getElementById('section1').scrollIntoView();" />
+            <input type="button" value="SCROLL" onClick="document.getElementById('section3').scrollIntoView();" />
+        </div>
     </section>
 
     <section id="section3">
         <embed type="text/html" src="./src/chart-files/heatmap/heatmap-correlation.html"
             style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="50%" height="90%">
-        <input type="button" value="BACK" onClick="document.getElementById('section2').scrollIntoView();" />
-        <input type="button" value="SCROLL" onClick="document.getElementById('section4').scrollIntoView();" />
+            <div class="scroll-button">
+                <input type="button" value="BACK" onClick="document.getElementById('section2').scrollIntoView();" />
+                <input type="button" value="SCROLL" onClick="document.getElementById('section4').scrollIntoView();" />
+            </div>
     </section>
 
     <section id="section4">
         <embed type="text/html" src="./src/chart-files/plotting/plotting.html"
-            style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="100%" height="100%">
+            style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="100%" height="80%">
+            <div class="scroll-button">
+                <input type="button" value="BACK" onClick="document.getElementById('section3').scrollIntoView();" />
+                <input type="button" value="SCROLL" onClick="document.getElementById('section5').scrollIntoView();" />
+            </div>
+    </section>
+
+    <section id="section5">
+        <embed type="text/html" src="./src/chart-files/histogram/histogram.html"
+            style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="100%" height="80%">
+
+            <div class="scroll-button">
+                <input type="button" value="BACK" onClick="document.getElementById('section4').scrollIntoView();" />
+                <input type="button" value="SCROLL" onClick="document.getElementById('section6').scrollIntoView();" />
+            </div>
+    </section>
+
+    <section id="section6">
+        <embed type="text/html" src="./src/chart-files/boxplot_walc - grade/boxplot_walc_grade.html"
+            style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="100%" height="80%">
+            <div class="scroll-button">
+                <input type="button" value="BACK" onClick="document.getElementById('section5').scrollIntoView();" />
+                <input type="button" value="SCROLL" onClick="document.getElementById('section7').scrollIntoView();" />
+            </div>
+    </section>
+
+    <section id="section7">
+        <embed type="text/html" src="./src/chart-files/guardian_multi_boxplot/guardian_multi_boxplot.html"
+            style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="100%" height="80%">
+            <div class="scroll-button">
+                <input type="button" value="BACK" onClick="document.getElementById('section6').scrollIntoView();" />
+                <input type="button" value="SCROLL" onClick="document.getElementById('section8').scrollIntoView();" />
+            </div>
+    </section>
+
+    <section id="section8">
+        
     </section>
 </body>
 
