@@ -1,0 +1,22 @@
+{
+  "name": "alcoholism-data-visualization",
+  "version": "1.0.0",
+  "description": "this is a project about visualizing alcoholism in students",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmtrang/alcohol-in-students-data-visualization.git"
+  },
+  "author": "Trang Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmtrang/alcohol-in-students-data-visualization/issues"
+  },
+  "homepage": "https://github.com/nmtrang/alcohol-in-students-data-visualization#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

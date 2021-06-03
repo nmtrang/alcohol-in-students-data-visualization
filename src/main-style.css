@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Mate SC', serif;
+    
+}
+
+h3, h4, h5, p, text, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+#section1, #section2, #section3, #section4 {
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#main-content {
+    overflow: hidden;
+    background: #ff4a4a;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+#main-content img {
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+#side-details {
+    width: 50%;
+    float: right;
+    margin: 0 auto;
+}
+
+h1#main-topic {
+    color: #f2f2f2;
+    font-size: 75px;
+    line-height: 74px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+h2#punchline {
+    color: #f2f2f2;
+    font-size: 35px;
+    line-height: 34px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+
+
+

@@ -1,0 +1,22 @@
+#my_dataviz {
+    width: 50%;
+}
+
+text {
+    font-size: 9px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #054d29;
+    shape-rendering: crispEdges;
+}
+
+.tooltip {
+    position: absolute;
+    width: 1F70px;
+    height: 3F8px;
+    pointer-events: none;
+    font-family: 'Roboto', sans-serif;
+}
