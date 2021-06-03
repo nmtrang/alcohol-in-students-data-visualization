@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main-style.css">
-    <link rel="stylesheet" href="../node_modules/animate.css/animate.css">
+    <link rel="stylesheet" href="./src/main-style.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
     <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="chart-files/heatmap/script.js"></script>
+    <script src="./src/chart-files/heatmap/script.js"></script>
     <title>Alcoholism in students</title>
 </head>
 
@@ -17,7 +17,7 @@
         <div id="main-content">
             <h1 id="main-topic">Can an alcoholic be good in studies?</h1>
             <h2 id="punchline">When a little more alcohol<br>speaks more the we expected...</h2>
-            <img src="images/wine-drawing.png">
+            <img src="./src/images/wine-drawing.png">
         </div>
         <div id="side-details">
 
@@ -89,14 +89,14 @@
     </section>
 
     <section id="section3">
-        <embed type="text/html" src="chart-files/heatmap/heatmap-correlation.html"
+        <embed type="text/html" src="./src/chart-files/heatmap/heatmap-correlation.html"
             style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="50%" height="90%">
         <input type="button" value="BACK" onClick="document.getElementById('section2').scrollIntoView();" />
         <input type="button" value="SCROLL" onClick="document.getElementById('section4').scrollIntoView();" />
     </section>
 
     <section id="section4">
-        <embed type="text/html" src="chart-files/plotting/plotting.html"
+        <embed type="text/html" src="./src/chart-files/plotting/plotting.html"
             style="overflow: hidden; overflow-x: hidden; overflow-y: hidden;" width="100%" height="100%">
     </section>
 </body>
