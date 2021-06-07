@@ -7,3 +7,7 @@
     width: 50%;
     float: right;
 }
+
+li {
+    line-height: 30px;
+}

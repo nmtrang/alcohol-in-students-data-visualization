@@ -47,7 +47,7 @@ d3.csv("https://raw.githubusercontent.com/MrCat-2510/Testing/main/Visual_Data/Bo
 
     var layout = {
       yaxis: {
-        title: 'normalized moisture',
+        title: 'Grade',
         zeroline: false
       },
       boxmode: 'group'

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto:wght@300&display=swap");
 
 * {
     margin: 0px;
@@ -6,35 +6,33 @@
 
 html {
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 body {
-    font-family: 'Mate SC', serif;
-    
+    font-family: "Mate SC", serif;
 }
 
-h3, h4, h5, p, text, li {
-    font-family: 'Roboto', sans-serif;
-}
-
-#section1, #section2, #section3, #section4, #section5, #section6, #section7 {
-    margin: 0 auto;
-    padding: 0px;
-    width: 100%;
+/* #fullpage {
     height: 100vh;
-    overflow: visible;
-    position: relative;
+    overflow:hidden;
 }
 
-div.scroll-button {
-    position: absolute;
-    bottom: 0px;
-    margin-left: 50%;
+#fullpage section {
+    height: 100vh;
+} */
+
+h3,
+h4,
+h5,
+p,
+text,
+li {
+    font-family: "Roboto", sans-serif;
 }
+
+
 
 #main-content {
-    overflow: hidden;
     background: #ff4a4a;
     width: 50%;
     height: 100vh;
@@ -43,14 +41,19 @@ div.scroll-button {
 
 #main-content img {
     margin-left: 20%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 #side-details {
     width: 50%;
+    height: 90%;
+    position: relative;
     float: right;
     margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
 }
+
 
 h1#main-topic {
     color: #f2f2f2;
@@ -67,7 +70,4 @@ h2#punchline {
     font-weight: 300;
     margin: 20px;
 }
-
-
-
 

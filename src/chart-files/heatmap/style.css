@@ -1,5 +1,15 @@
+body {
+    position: relative;
+}
 #my_dataviz {
     width: 50%;
+    float: left;
+}
+
+#legend {
+    margin-top: 100px;
+    width: 50%;
+    float: right;
 }
 
 text {
