@@ -4,8 +4,9 @@
 }
 
 #information {
+    float: right;
     width: 40%;
     position: absolute;
-    right: 10px;
+    right: 100px;
     top: 100px;
 }
