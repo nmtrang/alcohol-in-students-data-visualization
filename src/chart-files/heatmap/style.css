@@ -13,6 +13,13 @@ body {
     float: right;
 }
 
+#information {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 20%;
+}
+
 text {
     font-size: 9px;
 }

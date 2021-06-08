@@ -3,11 +3,17 @@
 }
 
 #Histogram {
+    position: absolute;
+    top: 100px;
     float: left;
     width: 50%;
 }
 
 #information {
+    position: absolute;
     width: 50%;
+    float: right;
+    top: 100px;
+    right: 50px;
     line-height: 30px;
 }

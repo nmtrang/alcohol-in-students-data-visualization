@@ -1,0 +1,11 @@
+#my_dataviz {
+    width: 60%;
+    float:left;
+}
+
+#information {
+    width: 40%;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}

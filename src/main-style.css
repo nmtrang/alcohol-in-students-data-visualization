@@ -20,7 +20,13 @@ body {
 
 #fullpage section {
     height: 100vh;
+    
 } 
+
+#section1, #section3, #section4, #section5, #section6, #section7, #section8 {
+    justify-content: center;
+    display: flex;
+}
 
 h3,
 h4,
